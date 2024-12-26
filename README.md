@@ -37,21 +37,14 @@ arr=np.array(eval(input()))
 result=np.linalg.norm(arr,np.inf)
 print("{:.2f}".format(result))
 
-
-
-
+~~~
 
 ## Output:
-### 1-Norm of a Matrix
-![OUTPUT]![Alt text](<Screenshot from 2024-12-26 13-38-24.png>)
-
-### 2-Norm of a Matrix
-![OUTPUT]![Alt text](<Screenshot from 2024-12-26 13-54-55.png>)
-
-
-### Infinity Norm of a Matrix
-![OUTPUT]![Alt text](<Screenshot from 2024-12-26 13-57-43.png>)
-
-
+#1-Norm
+![OUTPUT](<Screenshot from 2024-12-26 13-38-24.png>)
+#2-Norm 
+![OUTPUT](<Screenshot from 2024-12-26 13-54-55.png>)
+#Infinity norm of a matrix
+![Alt text](<Screenshot from 2024-12-26 13-57-43.png>)
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
